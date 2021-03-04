@@ -2,7 +2,7 @@
         set timeout 20
         set IPaddress [lindex $argv 0]
         set Username "cisco"
-        set Password "Netw00rk2012$$"
+        set Password "xxxxx"
         set Directory /root/cisco/logs
 	set TFTP_Root_Directory /var/lib/tftpboot/Configrations/Catalyst-Switches
 ## Create Backup Directory +%Y%m%d%H%M%S
