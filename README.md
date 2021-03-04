@@ -7,9 +7,9 @@ Note: it is ment to work fine with catalyst switches, but there should be no res
 
 To backup catalyst switches you need to do the following:
 
-Login to your server/pc () 
-go to /root/cisco
-make sure that all switches IPs are listed in this file IP-list
+* Login to your linux server/pc. 
+* copy this repo to your path. 
+3. make sure that all switches IPs are listed in this file **IP-list**
 also, you need make sure that the switch ssh is enabled, username is cisco and the password is the network switches password -- this is the only way to have the backup working.
 run this script get-catalyst-configration.sh
 make sure that no errors are appeared.
