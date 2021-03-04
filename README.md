@@ -17,3 +17,8 @@ To backup catalyst switches you need to do the following:
 * the configuration files will be listed in this path **/var/lib/tftpboot/Configrations/Catalyst-Switches** -- if this path is not exist, please create it or change the paths in the configration files. 
 * In the above path, you can run ll command, if all is fine you should not see any file with 0 size.
 * In case you are adding a new switch, make sure to access new switch from server for the 1st time only and then you have to follow the instructions mentioned above.
+
+# requirements: 
+* linux os 
+* bash 
+* expect 
